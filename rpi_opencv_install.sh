@@ -11,19 +11,19 @@ sudo chmod 755 ./OpenCV-4-5-5.sh
 ./OpenCV-4-5-5.sh
 
 # dependencies
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt -y install cmake gfortran
-sudo apt -y install python3-dev python3-numpy
-sudo apt -y install libjpeg-dev libtiff-dev libgif-dev
+sudo apt -y install build-essential cmake git unzip pkg-config
+sudo apt -y install libjpeg-dev libpng-dev
+sudo apt -y install libavcodec-dev libavformat-dev libswscale-dev
+sudo apt -y install libgtk2.0-dev libcanberra-gtk* libgtk-3-dev
 sudo apt -y install libgstreamer1.0-dev gstreamer1.0-gtk3
 sudo apt -y install libgstreamer-plugins-base1.0-dev gstreamer1.0-gl
-sudo apt -y install libavcodec-dev libavformat-dev libswscale-dev
-sudo apt -y install libgtk2.0-dev libcanberra-gtk*
-sudo apt -y install libxvidcore-dev libx264-dev libgtk-3-dev
-sudo apt -y install libtbb2 libtbb-dev libdc1394-22-dev libv4l-dev
+sudo apt -y install libxvidcore-dev libx264-dev
+sudo apt -y install python3-dev python3-numpy python3-pip
+sudo apt -y install libtbb2 libtbb-dev libdc1394-22-dev
+sudo apt -y install libv4l-dev v4l-utils
 sudo apt -y install libopenblas-dev libatlas-base-dev libblas-dev
-sudo apt -y install libjasper-dev liblapack-dev libhdf5-dev
+sudo apt -y install liblapack-dev gfortran libhdf5-dev
+sudo apt -y install libprotobuf-dev libgoogle-glog-dev libgflags-dev
 sudo apt -y install protobuf-compiler
 
 # qt5 
