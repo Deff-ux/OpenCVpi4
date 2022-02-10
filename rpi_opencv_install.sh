@@ -41,7 +41,7 @@ unzip opencv_contrib.zip
 # some administration to make live easier later on
 mv opencv-4.5.5 opencv
 mv opencv_contrib-4.5.5 opencv_contrib
-clean up the zip files
+# clean up the zip files
 rm opencv.zip
 rm opencv_contrib.zip
 
